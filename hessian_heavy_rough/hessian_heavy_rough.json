@@ -1,0 +1,19 @@
+{
+ "tile_m": 2.032,
+ "intended_material": "hessian / jute, heavy rough plain weave (tan)",
+ "kind": "set",
+ "class_suggest": "cotton",
+ "replaces": null,
+ "notes": "CONSTRUCTED, periodic (TILE False). Method: the burlap_coarse_tan fibre-built weave via cloth() in burlap_bleached_grey.py (a copy with knobs; burlap is frozen). Scale: source FFT 63.8 periods across both ways; heavy 8 x 8 /inch hessian: 3.175 mm x 64 even ends/picks = 203.2 mm tile. Fat flattened yarns: body width/pitch 0.66/0.72 (source gap runs 0.09-0.17 pitch), 1.15/1.3 mm thick, crimp 0.42/0.48 mm; slubs +25-50 % over 2-7 mm, thin places, 16 split/frayed sections. Strong twist as measured (weft 22, warp 13 deg; 9-18 / 6-11 turns per tile), coarse fibres (420 bundles on a 112-texel circumference), deep ply grooves. Halo: 60000 fuzz, 160000 escaped ends, 40000 loops, 6000 gap hairs and 26000 STIFF fibre ends that leave the yarn straight and rise 0.12-0.45 mm off it. Open area 0.037 (source metric 0.085). Colour from the source's lit crowns (sRGB [0.765 0.641 0.515]), per-yarn value (band 0.043 vs source 0.036), along-yarn and per-float value, fibre streaks, darker warm hollows (source hollow b/r 0.29), grime around the gaps and in the hairs over them, 70 small grime smudges and 50 abraded spots (<= 7 mm, D12), 220 straw bits, 90 dark fibres; fit_albedo. Pass 2: fibre-level colour: 30% of the height's own fibres re-rendered as 1-2 px colour strands on the same twisted paths (value per fibre, bundle-correlated, plus along-fibre variation; bright side x0.6, so the contrast comes from darker brown fibres), gain 0.697 solved so the crown fibre metric (logL, std of blur 1 px - blur 6 px) reaches 0.2504 vs the de-lit source 0.2921 (x0.857). Gaps: the gap zone takes the hue of the source's darkest 5 % (sRGB [0.2750000059604645, 0.1770000010728836, 0.11599999666213989]; its chroma x0.7 in log: umber, not copper; luminance-kept hue shift, 0.55 of it under the holes so they stay a muted brown at the holecol value), opaque gap texels (hole edges, gap hairs) -0.55 log darker (holes -0.08), grime tint neutral (was olive); gap hairs sRGB [0.6169999837875366, 0.4830000102519989, 0.36800000071525574], under holes [0.6840000152587891, 0.5479999780654907, 0.421999990940094].",
+ "relief_m": 0.02341,
+ "normal_convention": "OpenGL (+Y up, glTF / Bevy)",
+ "metallic": 0,
+ "opacity": true,
+ "resolution": [
+  4096,
+  4096
+ ],
+ "px_per_real_mm": 20.16,
+ "auxiliary_maps": [],
+ "maker": "Dark Craft lanes (recipes/hessian_heavy_rough.py)"
+}
