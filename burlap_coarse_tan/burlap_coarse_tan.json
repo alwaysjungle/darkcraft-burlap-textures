@@ -1,0 +1,19 @@
+{
+ "tile_m": 2.05,
+ "intended_material": "burlap / jute, coarse plain weave (tan)",
+ "kind": "set",
+ "class_suggest": "cotton",
+ "replaces": "burlap",
+ "notes": "CONSTRUCTED, periodic (TILE False, no make_tileable cuts, no photo pixels in the maps). Scale: warp 2.5 mm (10 /inch hessian; the source shows 81 warp periods across) x 82 even ends = 205 mm tile; 78 even picks (source 76-79 per image) = 2.63 mm mean weft pitch, so the over-under parity wraps. Irregular weft: per-pick spacing = slow periodic drift + AR(1) jitter 6 % (lag-1 0.33, measured), normalised to sum exactly to the tile; warp likewise (lag-1 0.19); per-thread waviness, whole-cloth bow, density drift. Yarns: flat superellipse bodies (width/pitch 0.67/0.59, 0.8/0.9 mm thick, crimp 0.3/0.34 mm), width along each yarn +-25 % (drift, slubs, thin places), pressed flat and spread at crossings, puffy and rounder where free; 10 split sections with the plies splayed. FIBRE BUILD: each yarn samples a periodic fibre texture in yarn coordinates (angle around the yarn x length; 520 bundles of discrete fibres 2-11 mm, top fibre wins, each with its own value: light and dark fibres), wound at the measured twist (weft 17 deg, warp 11 deg, same hand) with whole turns per tile varying +-30 % per yarn and +-20 % along it; 3 ply grooves of irregular depth (often absent). HALO: 40000 surface fuzz fibres along the local fibre direction, 150000 escaped ends and 30000 small loops at the yarn edges, 20000 long hairs across the gaps; all lie low (<= 0.08 mm above their surface; over a gap 0.35 mm below the local yarn level), 1-px fibres as cut-outs. Open area 0.073 (source 0.090). Colour: value per yarn, along the yarn and per float plus chroma (darker redder, as measured), calibrated so the yarn band (0.5-3 pitches) matches the source (0.051 vs 0.051); fibre-level streaks from the fibre texture; periodic wear / grime; 240 straw bits and 150 dark fibres; mean matched to the source's opaque cloth.",
+ "relief_m": 0.01634,
+ "normal_convention": "OpenGL (+Y up, glTF / Bevy)",
+ "metallic": 0,
+ "opacity": true,
+ "resolution": [
+  4096,
+  4096
+ ],
+ "px_per_real_mm": 19.98,
+ "auxiliary_maps": [],
+ "maker": "Dark Craft lanes (recipes/burlap_coarse_tan.py)"
+}
