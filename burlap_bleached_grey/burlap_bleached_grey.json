@@ -1,0 +1,19 @@
+{
+ "tile_m": 2.0743,
+ "intended_material": "burlap / jute, open plain weave, bleached pale grey",
+ "kind": "set",
+ "class_suggest": "cotton",
+ "replaces": null,
+ "notes": "CONSTRUCTED, periodic (TILE False). Method: burlap_coarse_tan's fibre-built weave, copied as cloth() with knobs (that recipe is frozen). Scale: source FFT 97.7 warp / 91.1 weft periods across; read as a light 12 x 11 /inch hessian: warp 2.12 mm x 98 even ends = 207.4 mm tile, 92 even picks = 2.25 mm (source ratio 0.93). Open weave: yarn body width/pitch 0.52/0.6 (source gap runs 0.19-0.29 pitch), 0.55/0.62 mm thick, crimp 0.22/0.25 mm. Twist measured weft 15 / warp 6 deg (10-20 / 5-10 turns per tile). Fine fibres: 650 bundles on a 160-texel circumference, shallow plies. Halo: 40000 fuzz, 130000 escaped ends, 25000 loops, 80000 fine hairs bridging the gaps (gap halo 0.44; source 8.7 % bright fibre in gap cores). Open area 0.102 (source metric 0.086). Colour from the source's lit crowns (sRGB [0.768 0.719 0.691]), per-yarn/along-yarn/per-float value (band 0.041 vs source 0.042), crowns paler (sun/wash bleach), faint yellowing in the hollows (source hollow b/r 0.77 vs crown 0.79), 60 small bleach spots and 40 small yellowed marks (<= 6 mm, D12), 70 dark specks, 100 pale bits; fit_albedo. Pass 2: fibre-level colour: 16% of the height's own fibres re-rendered as 1-2 px colour strands on the same twisted paths (value per fibre, bundle-correlated, plus along-fibre variation), gain 0.629 solved so the crown fibre metric (logL, std of blur 1 px - blur 6 px) reaches 0.2025 vs the de-lit source 0.2313 (x0.875); halo fibre contrast x1.3.",
+ "relief_m": 0.01174,
+ "normal_convention": "OpenGL (+Y up, glTF / Bevy)",
+ "metallic": 0,
+ "opacity": true,
+ "resolution": [
+  4096,
+  4096
+ ],
+ "px_per_real_mm": 19.75,
+ "auxiliary_maps": [],
+ "maker": "Dark Craft lanes (recipes/burlap_bleached_grey.py)"
+}
